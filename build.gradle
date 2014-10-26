@@ -1,0 +1,28 @@
+buildscript {
+repositories {
+maven { url "http://repo.spring.io/libs-snapshot" }
+mavenLocal()
+}
+dependencies {
+classpath("org.springframework.boot:spring-boot-gradle-plugin:1.0.2.RELEASE")
+}
+}
+
+apply from: 'javafx.plugin'
+apply plugin: 'java'
+apply plugin: 'spring-boot'
+
+dependencies {
+    compile files('lib/MyUtils.jar')
+    compile files('lib/zip4j_1.3.1.jar')
+}
+
+jar {
+baseName = 'picture-cards'
+version = '0.1.0'
+}
+
+
+javafx {
+mainClass 'main.java.Main'
+}

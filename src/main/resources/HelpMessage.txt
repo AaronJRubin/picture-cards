@@ -1,0 +1,22 @@
+The purpose of this program is to make "picture cards," 
+images of identical size laid out on a page with black 
+lines between them for ease of uniform cutting and 
+(if desired) lamination. Cards will be laid out
+left-to-right, top-to-bottom. The contents of a card
+can either be text (the color of which you select) or
+an image file (jpg, png, gif, etc.). For making a text
+card, simply click on the "Text Mode" button for the
+image in question, input your text, and choose a color.
+For making an image card, make sure that the image is in
+file mode (this is the default) and either drag and drop 
+an image file from your desktop or file explorer into the 
+"File" box, or press the "Select a File" button. You can 
+freely set the quantity for each card, and once all of 
+the requested cards are on the page, they will repeat 
+until the horizontal and vertical boxes are all filled up.
+If you want all of the cards to have the same quantity, 
+feel free to make use of the handy "Set Quantities To..."
+button.
+
+The order of images can be rearranged with the arrows, in a way
+that should hopefully be self-evident.
