@@ -4,4 +4,4 @@ This is a very friendly, easy-to-use GUI program for taking a set of images and/
 
 #Compiling and Running the Code
 
-Assuming that you have the Gradle build tool installed, just run `gradle build` from the command line inside the main project directory! You'll get a runnable jar inside build/distributions. You can also run `gradle jfxDeploy` if you'd like to build native packages to run on a machine without Java installed. They'll be built inside build/distributions/bundles.
+Assuming that you have Java 8 and the Gradle build tool installed, just run `gradle build` from the command line inside the main project directory! You'll get a runnable jar inside build/distributions. You can also run `gradle jfxDeploy` if you'd like to build native packages to run on a machine without Java installed. They'll be built inside build/distributions/bundles.
