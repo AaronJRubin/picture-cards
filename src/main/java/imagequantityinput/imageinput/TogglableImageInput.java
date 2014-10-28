@@ -9,6 +9,17 @@ import javafx.scene.Node;
 import javafx.scene.layout.HBox;
 import javafx.stage.Stage;
 
+/**
+When an instance of this class is constructed, it is passed a reference
+to an ImageInputMode property, which it listens for changes to.
+The TogglableImageInput's controller (in this program, an ImageQuantityInput),
+which also holds a reference to that property, can modify the property
+in response to button presses of the like, toggling this between a FileInput 
+and a TextInput. The behavior of this class with respect to its external interface
+is unaffected by this toggle. Crucially, it still returns a
+BufferedImage when its getImg() method is called,
+even though the image will be different.
+*/
 public class TogglableImageInput extends ImageInput {
 
 	private final HBox node = new HBox();

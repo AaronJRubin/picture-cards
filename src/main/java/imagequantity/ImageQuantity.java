@@ -1,7 +1,9 @@
 package main.java.imagequantity;
 import java.awt.image.BufferedImage;
 
-
+/** 
+Just a tuple, nothing interesting here.
+*/
 public class ImageQuantity {
 
 	private final BufferedImage img;

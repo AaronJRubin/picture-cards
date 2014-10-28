@@ -10,6 +10,12 @@ import javafx.scene.control.Label;
 import javafx.scene.layout.GridPane;
 import javafx.stage.Stage;
 
+/**
+This class can be "wraps" the generic ImageFileInputField,
+from the inputs package in MyUtils.jar, in such a way as
+to fit nicely within the layout area where I am keeping image inputs
+for this particular program.
+*/
 public class FileInput extends ImageInput {
 
 	private final GridPane node = new GridPane();
