@@ -1,4 +1,4 @@
-package main.java.imagequantity;
+package imagequantity;
 import java.awt.image.BufferedImage;
 
 /** 

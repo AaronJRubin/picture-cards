@@ -1,4 +1,4 @@
-package main.java.imagequantityinput.imageinput;
+package imagequantityinput.imageinput;
 import inputs.ImageFileInputField;
 
 import java.awt.image.BufferedImage;

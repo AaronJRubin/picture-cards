@@ -1,4 +1,4 @@
-package main.java.businesscode;
+package businesscode;
 import java.awt.BasicStroke;
 import java.awt.Color;
 import java.awt.Graphics2D;
@@ -18,7 +18,7 @@ import javafx.scene.layout.GridPane;
 
 import javax.imageio.ImageIO;
 
-import main.java.imagequantity.ImageQuantity;
+import imagequantity.ImageQuantity;
 
 public class MakeCards {
 

@@ -1,15 +1,15 @@
-package main.java.gui.imagequantityinput;
+package gui.imagequantityinput;
 import java.awt.image.BufferedImage;
 import java.io.File;
 import java.nio.file.Path;
 
 import javax.imageio.ImageIO;
 
-import main.java.imagequantity.ImageQuantity;
-import main.java.imagequantityinput.imageinput.FileInput;
-import main.java.imagequantityinput.imageinput.ImageInputMode;
-import main.java.imagequantityinput.imageinput.TextInput;
-import main.java.imagequantityinput.imageinput.TogglableImageInput;
+import imagequantity.ImageQuantity;
+import imagequantityinput.imageinput.FileInput;
+import imagequantityinput.imageinput.ImageInputMode;
+import imagequantityinput.imageinput.TextInput;
+import imagequantityinput.imageinput.TogglableImageInput;
 import inputs.IntegerInput;
 import javafx.beans.property.IntegerProperty;
 import javafx.beans.property.ObjectProperty;

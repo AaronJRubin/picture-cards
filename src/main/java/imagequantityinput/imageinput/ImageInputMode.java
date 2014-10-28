@@ -1,4 +1,4 @@
-package main.java.imagequantityinput.imageinput;
+package imagequantityinput.imageinput;
 
 public enum ImageInputMode {
 	TEXT, FILE;

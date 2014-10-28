@@ -1,5 +1,5 @@
-package main.java.gui.view;
-import main.java.gui.imagequantityinput.ImageQuantityInputs;
+package gui.view;
+import gui.imagequantityinput.ImageQuantityInputs;
 import buttons.HelpButton;
 import inputs.IntegerInput;
 import io.IO;

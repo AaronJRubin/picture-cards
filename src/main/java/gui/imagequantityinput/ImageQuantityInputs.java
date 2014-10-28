@@ -1,4 +1,4 @@
-package main.java.gui.imagequantityinput;
+package gui.imagequantityinput;
 
 import dialogs.ErrorBox;
 import io.IO;
@@ -18,7 +18,7 @@ import javafx.geometry.Pos;
 import javafx.scene.Node;
 import javafx.scene.layout.VBox;
 import javafx.stage.Stage;
-import main.java.imagequantity.ImageQuantity;
+import imagequantity.ImageQuantity;
 import net.lingala.zip4j.core.*;
 import net.lingala.zip4j.exception.ZipException;
 import net.lingala.zip4j.model.*;

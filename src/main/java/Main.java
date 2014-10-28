@@ -1,13 +1,11 @@
-package main.java;
-
 import java.io.File;
 import java.io.IOException;
 import java.util.List;
 
-import main.java.businesscode.MakeCards;
-import main.java.gui.imagequantityinput.ImageQuantityInputs;
-import main.java.gui.view.View;
-import main.java.imagequantity.ImageQuantity;
+import businesscode.MakeCards;
+import gui.imagequantityinput.ImageQuantityInputs;
+import gui.view.View;
+import imagequantity.ImageQuantity;
 import dialogs.ErrorBox;
 import dialogs.IntegerInputDialog;
 import javafx.application.Application;
