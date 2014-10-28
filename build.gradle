@@ -7,6 +7,7 @@ buildscript {
 	dependencies {
 	//	classpath 'org.bitbucket.shemnon.javafxplugin:gradle-javafx-plugin:8.1.1'
 		classpath("org.springframework.boot:spring-boot-gradle-plugin:1.0.2.RELEASE")
+		//classpath 'org.batcha.gradle.plugins:git-dependencies:0.2'
 	}
 }
 
@@ -14,6 +15,7 @@ buildscript {
 apply plugin: 'java'
 //apply plugin: 'javafx'
 apply plugin: 'spring-boot'
+//apply plugin: 'git-dependencies'
 
 repositories {
 	mavenCentral()
@@ -21,6 +23,7 @@ repositories {
 
 dependencies {
 	compile 'net.lingala.zip4j:zip4j:1.3.2'
+	//compile(':javafx-utils').ext.git = 'https://github.com/AaronJRubin/javafx-utils.git'
 	compile files('lib/MyUtils.jar')
 	//compile files('lib/zip4j_1.3.1.jar')
 }
