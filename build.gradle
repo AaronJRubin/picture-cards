@@ -1,28 +1,35 @@
 buildscript {
-repositories {
-maven { url "http://repo.spring.io/libs-snapshot" }
-mavenLocal()
-}
-dependencies {
-classpath("org.springframework.boot:spring-boot-gradle-plugin:1.0.2.RELEASE")
-}
+	repositories {
+		maven { url "http://repo.spring.io/libs-snapshot" }
+ 	//	maven { url 'http://dl.bintray.com/content/shemnon/javafx-gradle/' }
+		mavenCentral()
+	}
+	dependencies {
+	//	classpath 'org.bitbucket.shemnon.javafxplugin:gradle-javafx-plugin:8.1.1'
+		classpath("org.springframework.boot:spring-boot-gradle-plugin:1.0.2.RELEASE")
+	}
 }
 
-apply from: 'javafx.plugin'
+//apply from: 'javafx.plugin'
 apply plugin: 'java'
+//apply plugin: 'javafx'
 apply plugin: 'spring-boot'
 
+repositories {
+	mavenCentral()
+}
+
 dependencies {
-    compile files('lib/MyUtils.jar')
-    compile files('lib/zip4j_1.3.1.jar')
+	compile 'net.lingala.zip4j:zip4j:1.3.2'
+	compile files('lib/MyUtils.jar')
+	//compile files('lib/zip4j_1.3.1.jar')
 }
 
 jar {
-baseName = 'picture-cards'
-version = '0.1.0'
+	baseName = 'picture-cards'
+	version = '0.1.0'
 }
-
-
+/*
 javafx {
-mainClass 'main.java.Main'
-}
+	mainClass 'main.Main'
+}*/
